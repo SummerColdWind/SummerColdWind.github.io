@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "Qincheng Qiao | Academic Homepage",
+    "description": "Qincheng Qiao — Corneal Confocal Microscopy Image Processing and Analysis",
+    "last_updated": "2026-06-20"
+  },
+  "profile": {
+    "name": "Qincheng Qiao",
+    "title": "Ph.D. Candidate · Clinical Medicine",
+    "photo": "assets/images/profile.png",
+    "bio": "I focus on research in corneal nerve image processing and analysis.",
+    "email": "jugking6688@gmail.com",
+    "cv": "assets/files/cv.pdf"
+  },
+  "affiliation": {
+    "university": "Shandong University",
+    "university_url": "https://www.sdu.edu.cn/",
+    "department": "The First Clinical Medical College"
+  },
+  "nav": [
+    { "id": "about", "label": "About" },
+    { "id": "publications", "label": "Publications" },
+    { "id": "games", "label": "Games" }
+  ],
+  "about": {
+    "title": "About Me",
+    "paragraphs": [
+      "I am a Ph.D. candidate at the First School of Clinical Medicine, <strong>Shandong University</strong>, advised by <a href=\"https://www.qiluhospital.com/show-355-1262-1.html\">Prof. Xinguo Hou</a>.",
+      "My research focuses on developing models and algorithms for processing and analyzing corneal nerve images."
+    ]
+  },
+  "publications_section": {
+    "title": "Publications",
+    "note": "See the full list on <a href=\"https://scholar.google.com/citations?user=WOAhGTUAAAAJ\" target=\"_blank\" rel=\"noopener\">Google Scholar</a>. <sup>†</sup> denotes equal contribution, <sup>*</sup> denotes corresponding author."
+  },
+  "games_section": {
+    "title": "Mini Games",
+    "intro": "Need a break from papers? Play a quick game.",
+    "items": [
+      { "id": "reaction", "title": "Reaction Test", "desc": "Click as soon as it turns green" },
+      { "id": "memory", "title": "Memory Match", "desc": "Find matching emoji pairs" },
+      { "id": "guess", "title": "Guess the Number", "desc": "Between 1 and 100" },
+      { "id": "clicks", "title": "10-Second Tap", "desc": "How many clicks in 10 seconds?" }
+    ]
+  },
+  "ui": {
+    "skip_link": "Skip to content",
+    "nav_toggle": "Open menu",
+    "nav_aria": "Main navigation",
+    "lang_switch_aria": "Language switcher",
+    "lang_current": "EN",
+    "lang_other": "中文",
+    "lang_other_href": "../",
+    "alternate_hreflang": "zh-CN",
+    "alternate_href": "../",
+    "download_cv": "Download CV",
+    "send_email": "Email Me",
+    "social_aria": "Academic social links",
+    "photo_alt_suffix": "profile photo",
+    "footer_rights": "All rights reserved.",
+    "footer_hosted": "Hosted on <a href=\"https://pages.github.com/\" target=\"_blank\" rel=\"noopener\">GitHub Pages</a>.",
+    "footer_updated": "Last updated"
+  }
+}

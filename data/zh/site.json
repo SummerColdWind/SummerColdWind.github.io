@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "lang": "zh-CN",
+    "title": "乔亲成 | 学术主页",
+    "description": "乔亲成 — 角膜共焦显微镜图像处理与分析",
+    "last_updated": "2026-06-20"
+  },
+  "profile": {
+    "name": "乔亲成",
+    "title": "博士研究生 · 临床医学",
+    "photo": "assets/images/profile.png",
+    "bio": "我专注于角膜神经图像处理与分析方面的研究。",
+    "email": "jugking6688@gmail.com",
+    "cv": "assets/files/cv.pdf"
+  },
+  "affiliation": {
+    "university": "山东大学",
+    "university_url": "https://www.sdu.edu.cn/",
+    "department": "第一临床学院"
+  },
+  "nav": [
+    { "id": "about", "label": "关于" },
+    { "id": "publications", "label": "论文" },
+    { "id": "games", "label": "小游戏" }
+  ],
+  "about": {
+    "title": "关于我",
+    "paragraphs": [
+      "我是 <strong>山东大学</strong> 第一临床学院的博士研究生，导师为 <a href=\"https://www.qiluhospital.com/show-355-1262-1.html\">侯新国教授</a>。",
+      "我的研究致力于开发用于角膜神经图像的处理和分析的模型及算法。"
+    ]
+  },
+  "publications_section": {
+    "title": "出版物",
+    "note": "完整列表见 <a href=\"https://scholar.google.com/citations?user=WOAhGTUAAAAJ\" target=\"_blank\" rel=\"noopener\">Google Scholar</a>。<sup>†</sup> 表示共同第一作者，<sup>*</sup> 表示通讯作者。"
+  },
+  "games_section": {
+    "title": "趣味小游戏",
+    "intro": "写论文累了？来玩一会儿。",
+    "items": [
+      { "id": "reaction", "title": "反应速度", "desc": "变绿后尽快点击" },
+      { "id": "memory", "title": "记忆翻牌", "desc": "找出相同的 emoji" },
+      { "id": "guess", "title": "猜数字", "desc": "1–100 之间" },
+      { "id": "clicks", "title": "十秒点点", "desc": "10 秒内能点多少下" }
+    ]
+  },
+  "ui": {
+    "skip_link": "跳至正文",
+    "nav_toggle": "打开菜单",
+    "nav_aria": "主导航",
+    "lang_switch_aria": "语言切换",
+    "lang_current": "中文",
+    "lang_other": "EN",
+    "lang_other_href": "en/",
+    "alternate_hreflang": "en",
+    "alternate_href": "en/",
+    "download_cv": "下载 CV",
+    "send_email": "发送邮件",
+    "social_aria": "学术社交链接",
+    "photo_alt_suffix": "个人照片",
+    "footer_rights": "保留所有权利。",
+    "footer_hosted": "基于 <a href=\"https://pages.github.com/\" target=\"_blank\" rel=\"noopener\">GitHub Pages</a> 托管。",
+    "footer_updated": "最后更新"
+  }
+}

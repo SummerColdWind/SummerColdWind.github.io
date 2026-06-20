@@ -1,0 +1,7 @@
+{
+  "social": [
+    { "label": "Scholar", "url": "https://scholar.google.com/citations?user=WOAhGTUAAAAJ", "aria": "Google Scholar" },
+    { "label": "ORCID", "url": "https://orcid.org/0009-0009-7900-2984", "aria": "ORCID" },
+    { "label": "GitHub", "url": "https://github.com/SummerColdWind", "aria": "GitHub" }
+  ]
+}

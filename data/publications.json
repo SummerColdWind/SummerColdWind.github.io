@@ -1,0 +1,186 @@
+{
+  "groups": [
+    {
+      "year": 2026,
+      "papers": [
+        {
+          "title": "Anatomy-Guided Weakly Supervised Learning Framework for Corneal Nerve Image Denoising and Enhancement",
+          "authors": [
+            { "name": "Qincheng Qiao", "me": true },
+            { "name": "Xinguo Hou" }
+          ],
+          "venue": "Biomedical Optics Express",
+          "year": 2026,
+          "figure": {
+            "src": "assets/images/pubs/2026.2.jpg",
+            "alt": "Teaser figure for NerveBoost",
+            "link": "https://doi.org/10.1364/BOE.597323"
+          },
+          "links": [
+            { "label": "Paper", "url": "https://doi.org/10.1364/BOE.597323" },
+            { "label": "Github", "url": "https://github.com/SummerColdWind/NerveBoost" }
+          ]
+        },
+        {
+          "title": "An Annotated Corneal Confocal Microscopy Dataset for Nerve Segmentation and Clinical Characterization",
+          "authors": [
+            { "name": "Qincheng Qiao", "me": true },
+            { "name": "Juan Cao" },
+            { "name": "Xinguo Hou" }
+          ],
+          "venue": "Scientific Data",
+          "year": 2026,
+          "figure": {
+            "src": "assets/images/pubs/2026.1.PNG",
+            "alt": "Teaser figure for CCM dataset paper",
+            "link": "https://doi.org/10.1038/s41597-026-07418-6"
+          },
+          "links": [
+            { "label": "Paper", "url": "https://doi.org/10.1038/s41597-026-07418-6" },
+            { "label": "Zenodo", "url": "https://zenodo.org/records/18779434" }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "papers": [
+        {
+          "title": "SuperCCM: An Open Source Python Toolkit for Automated Quantification of Corneal Nerve Fibers in Confocal Microscopy Images",
+          "authors": [
+            { "name": "Qincheng Qiao", "me": true },
+            { "name": "Tongxin Ren" },
+            { "name": "Li Chen" },
+            { "name": "Xinguo Hou" }
+          ],
+          "venue": "Translational Vision Science & Technology",
+          "year": 2025,
+          "figure": {
+            "src": "assets/images/pubs/2025.5.png",
+            "alt": "Teaser figure for SuperCCM",
+            "link": "https://doi.org/10.1167/tvst.14.11.27"
+          },
+          "links": [
+            { "label": "Paper", "url": "https://doi.org/10.1167/tvst.14.11.27" },
+            { "label": "Github", "url": "https://github.com/qlnfm/SuperCCM" },
+            { "label": "Zenodo", "url": "https://zenodo.org/records/17051148" }, 
+            { "label": "Online Demo", "url": "https://aiccm.fun/" }
+          ]
+        },
+        {
+          "title": "Multi-Frame Fusion Enhances Analytical and Diagnostic Efficiency in Corneal Confocal Microscopy",
+          "authors": [
+            { "name": "Ying Zou" },
+            { "name": "Juan Cao" },
+            { "name": "Jiamu Chen" },
+            { "name": "Li Chen" },
+            { "name": "Qincheng Qiao", "me": true, "corresponding": true },
+            { "name": "Xinguo Hou", "corresponding": true  }
+          ],
+          "venue": "Scientific Reports",
+          "year": 2025,
+          "figure": {
+            "src": "assets/images/pubs/2025.4.png",
+            "alt": "Teaser figure for multi-frame fusion paper",
+            "link": "https://doi.org/10.1038/s41598-025-25458-7"
+          },
+          "links": [
+            { "label": "Paper", "url": "https://doi.org/10.1038/s41598-025-25458-7" },
+            { "label": "Github", "url": "https://github.com/SummerColdWind/AiCCMerger" }
+          ]
+        },
+        {
+          "title": "Development of Diagnostic Nomograms Using Corneal Nerve Parameters for Diabetic Peripheral Neuropathy in Type 2 Diabetes Mellitus",
+          "authors": [
+            { "name": "Qincheng Qiao", "me": true, "equal": true },
+            { "name": "Juan Cao", "equal": true },
+            { "name": "Xinguo Hou" }
+          ],
+          "venue": "Translational Vision Science & Technology",
+          "year": 2025,
+          "figure": {
+            "src": "assets/images/pubs/2025.3.png",
+            "alt": "Teaser figure for DPN nomogram paper",
+            "link": "https://doi.org/10.1167/tvst.14.9.29"
+          },
+          "links": [
+            { "label": "Paper", "url": "https://doi.org/10.1167/tvst.14.9.29" }
+          ]
+        },
+        {
+          "title": "ConNeCT: Weakly Supervised Corneal Confocal Microscopy Image Inpainting Network Based on a Diffusion Model",
+          "authors": [
+            { "name": "Qincheng Qiao", "me": true },
+            { "name": "Xinguo Hou" }
+          ],
+          "venue": "Biomedical Optics Express",
+          "year": 2025,
+          "figure": {
+            "src": "assets/images/pubs/2025.2.png",
+            "alt": "Teaser figure for ConNeCT",
+            "link": "https://doi.org/10.1364/BOE.562924"
+          },
+          "links": [
+            { "label": "Paper", "url": "https://doi.org/10.1364/BOE.562924" },
+            { "label": "Github", "url": "https://github.com/SummerColdWind/ConNeCT" }
+          ]
+        },
+        {
+          "title": "Automated Program Using Convolutional Neural Networks for Objective and Reproducible Selection of Corneal Confocal Microscopy Images",
+          "authors": [
+            { "name": "Qincheng Qiao", "me": true },
+            { "name": "Wen Xue" },
+            { "name": "Jinzhe Li" },
+            { "name": "Wenwen Zheng" },
+            { "name": "Yongkai Yuan" },
+            { "name": "Chen Li" },
+            { "name": "Fuqiang Liu" },
+            { "name": "Xinguo Hou" }
+          ],
+          "venue": "Digital Health",
+          "year": 2025,
+          "figure": {
+            "src": "assets/images/pubs/2025.1.jpg",
+            "alt": "Teaser figure for CCM image selection paper",
+            "link": "https://doi.org/10.1177/20552076251326223"
+          },
+          "links": [
+            { "label": "Paper", "url": "https://doi.org/10.1177/20552076251326223" },
+            { "label": "Github", "url": "https://github.com/SummerColdWind/AiCCMainstay" }
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "papers": [
+        {
+          "title": "Deep Learning-Based Automated Tool for Diagnosing Diabetic Peripheral Neuropathy",
+          "authors": [
+            { "name": "Qincheng Qiao", "me": true },
+            { "name": "Juan Cao" },
+            { "name": "Wen Xue" },
+            { "name": "Jin Qian" },
+            { "name": "Chuan Wang" },
+            { "name": "Qi Pan" },
+            { "name": "Bin Lu" },
+            { "name": "Qian Xiong" },
+            { "name": "Li Chen" },
+            { "name": "Xinguo Hou" }
+          ],
+          "venue": "Digital Health",
+          "year": 2024,
+          "figure": {
+            "src": "assets/images/pubs/2024.1.jpg",
+            "alt": "Teaser figure for DPN diagnostic tool paper",
+            "link": "https://doi.org/10.1177/20552076241307573"
+          },
+          "links": [
+            { "label": "Paper", "url": "https://doi.org/10.1177/20552076241307573" },
+            { "label": "Github", "url": "https://github.com/SummerColdWind/AiCCMetrics" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+name: Build site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Build index.html
+        run: python scripts/build.py
+
+      - name: Verify build is committed
+        run: |
+          git diff --exit-code index.html en/index.html || (
+            echo "HTML is out of date. Run: python scripts/build.py"
+            exit 1
+          )
