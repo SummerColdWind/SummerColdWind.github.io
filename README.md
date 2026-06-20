@@ -54,12 +54,31 @@ python scripts/serve.py    # 或 serve.bat，保存 data/ 后自动 rebuild
 
 ## 部署到 GitHub Pages
 
+### 一键部署（推荐）
+
+1. 首次在本机登录 GitHub CLI：`gh auth login`
+2. 运行：
+
+```bash
+deploy.bat
+# 或：powershell -File scripts/deploy.ps1
+```
+
+脚本会：build → 创建 `你的用户名.github.io` 仓库（若不存在）→ push → 开启 Pages。
+
+站点地址：`https://SummerColdWind.github.io/`（英文 `/en/`）
+
+### 手动步骤
+
 1. 修改 JSON / 资源后运行 `python scripts/build.py`
-2. 提交并推送 `index.html`、`en/index.html` 及 `assets/` 等变更
+2. 提交并推送
 3. 仓库 **Settings → Pages → Build and deployment**：
    - Source: **Deploy from a branch**
    - Branch: **main** / **/ (root)**
-4. 站点地址：`https://<username>.github.io/<repo>/`（用户主页仓库则为 `https://<username>.github.io/`）
+
+当前仓库 remote 已指向：
+
+`https://github.com/SummerColdWind/SummerColdWind.github.io.git`
 
 推送前请确认 `assets/images/` 下头像与论文缩略图已纳入 git。
 
