@@ -28,8 +28,12 @@ if ($LASTEXITCODE -ne 0) {
 
 function Test-GhRepo {
     param([string]$Name)
+    $prev = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
     gh repo view $Name --json name -q .name 2>$null | Out-Null
-    return ($LASTEXITCODE -eq 0)
+    $ok = ($LASTEXITCODE -eq 0)
+    $ErrorActionPreference = $prev
+    return $ok
 }
 
 $repoExists = Test-GhRepo $FullName
