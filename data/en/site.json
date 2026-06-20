@@ -10,8 +10,7 @@
     "title": "Ph.D. Candidate · Clinical Medicine",
     "photo": "assets/images/profile.png",
     "bio": "I focus on research in corneal nerve image processing and analysis.",
-    "email": "jugking6688@gmail.com",
-    "cv": "assets/files/cv.pdf"
+    "email": "jugking6688@gmail.com"
   },
   "affiliation": {
     "university": "Shandong University",
@@ -26,7 +25,7 @@
   "about": {
     "title": "About Me",
     "paragraphs": [
-      "I am a Ph.D. candidate at the First School of Clinical Medicine, <strong>Shandong University</strong>, advised by <a href=\"https://www.qiluhospital.com/show-355-1262-1.html\">Prof. Xinguo Hou</a>.",
+      "I am a Ph.D. candidate at the First Clinical Medical College, <strong>Shandong University</strong>, advised by <a href=\"https://www.qiluhospital.com/show-355-1262-1.html\">Prof. Xinguo Hou</a>.",
       "My research focuses on developing models and algorithms for processing and analyzing corneal nerve images."
     ]
   },
@@ -54,8 +53,6 @@
     "lang_other_href": "../",
     "alternate_hreflang": "zh-CN",
     "alternate_href": "../",
-    "download_cv": "Download CV",
-    "send_email": "Email Me",
     "social_aria": "Academic social links",
     "photo_alt_suffix": "profile photo",
     "footer_rights": "All rights reserved.",

@@ -18,7 +18,7 @@
           },
           "links": [
             { "label": "Paper", "url": "https://doi.org/10.1364/BOE.597323" },
-            { "label": "Github", "url": "https://github.com/SummerColdWind/NerveBoost" }
+            { "label": "GitHub", "url": "https://github.com/SummerColdWind/NerveBoost" }
           ]
         },
         {
@@ -62,7 +62,7 @@
           },
           "links": [
             { "label": "Paper", "url": "https://doi.org/10.1167/tvst.14.11.27" },
-            { "label": "Github", "url": "https://github.com/qlnfm/SuperCCM" },
+            { "label": "GitHub", "url": "https://github.com/qlnfm/SuperCCM" },
             { "label": "Zenodo", "url": "https://zenodo.org/records/17051148" }, 
             { "label": "Online Demo", "url": "https://aiccm.fun/" }
           ]
@@ -86,7 +86,7 @@
           },
           "links": [
             { "label": "Paper", "url": "https://doi.org/10.1038/s41598-025-25458-7" },
-            { "label": "Github", "url": "https://github.com/SummerColdWind/AiCCMerger" }
+            { "label": "GitHub", "url": "https://github.com/SummerColdWind/AiCCMerger" }
           ]
         },
         {
@@ -122,7 +122,7 @@
           },
           "links": [
             { "label": "Paper", "url": "https://doi.org/10.1364/BOE.562924" },
-            { "label": "Github", "url": "https://github.com/SummerColdWind/ConNeCT" }
+            { "label": "GitHub", "url": "https://github.com/SummerColdWind/ConNeCT" }
           ]
         },
         {
@@ -146,7 +146,7 @@
           },
           "links": [
             { "label": "Paper", "url": "https://doi.org/10.1177/20552076251326223" },
-            { "label": "Github", "url": "https://github.com/SummerColdWind/AiCCMainstay" }
+            { "label": "GitHub", "url": "https://github.com/SummerColdWind/AiCCMainstay" }
           ]
         }
       ]
@@ -177,7 +177,7 @@
           },
           "links": [
             { "label": "Paper", "url": "https://doi.org/10.1177/20552076241307573" },
-            { "label": "Github", "url": "https://github.com/SummerColdWind/AiCCMetrics" }
+            { "label": "GitHub", "url": "https://github.com/SummerColdWind/AiCCMetrics" }
           ]
         }
       ]

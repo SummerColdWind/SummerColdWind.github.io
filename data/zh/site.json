@@ -10,8 +10,7 @@
     "title": "博士研究生 · 临床医学",
     "photo": "assets/images/profile.png",
     "bio": "我专注于角膜神经图像处理与分析方面的研究。",
-    "email": "jugking6688@gmail.com",
-    "cv": "assets/files/cv.pdf"
+    "email": "jugking6688@gmail.com"
   },
   "affiliation": {
     "university": "山东大学",
@@ -31,7 +30,7 @@
     ]
   },
   "publications_section": {
-    "title": "出版物",
+    "title": "论文",
     "note": "完整列表见 <a href=\"https://scholar.google.com/citations?user=WOAhGTUAAAAJ\" target=\"_blank\" rel=\"noopener\">Google Scholar</a>。<sup>†</sup> 表示共同第一作者，<sup>*</sup> 表示通讯作者。"
   },
   "games_section": {
@@ -54,8 +53,6 @@
     "lang_other_href": "en/",
     "alternate_hreflang": "en",
     "alternate_href": "en/",
-    "download_cv": "下载 CV",
-    "send_email": "发送邮件",
     "social_aria": "学术社交链接",
     "photo_alt_suffix": "个人照片",
     "footer_rights": "保留所有权利。",
