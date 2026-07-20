@@ -21,7 +21,7 @@ jobs:
 
       - name: Verify build is committed
         run: |
-          git diff --exit-code index.html en/index.html || (
+          git diff --exit-code index.html zh/index.html || (
             echo "HTML is out of date. Run: python scripts/build.py"
             exit 1
           )

@@ -14,8 +14,8 @@ homepage/
 ├── assets/                 # 样式、脚本、图片、PDF
 ├── templates/base.html
 ├── scripts/build.py
-├── index.html              # 中文页（构建产物）
-├── en/index.html           # 英文页（构建产物）
+├── index.html              # 英文页（构建产物，默认）
+├── zh/index.html           # 中文页（构建产物）
 └── .nojekyll               # GitHub Pages 禁用 Jekyll
 ```
 
@@ -29,7 +29,7 @@ homepage/
 python scripts/build.py    # 或 build.bat
 ```
 
-页头 **中文 | EN** 在 `/` 与 `/en/` 间切换。
+页头 **EN | 中文** 在 `/` 与 `/zh/` 间切换。
 
 ### 常见场景
 
@@ -49,8 +49,8 @@ python scripts/build.py    # 或 build.bat
 python scripts/serve.py    # 或 serve.bat，保存 data/ 后自动 rebuild
 ```
 
-- 中文：http://localhost:11454/
-- 英文：http://localhost:11454/en/
+- 英文（默认）：http://localhost:11454/
+- 中文：http://localhost:11454/zh/
 
 ## 部署到 GitHub Pages
 
@@ -66,7 +66,7 @@ deploy.bat
 
 脚本会：build → 创建 `你的用户名.github.io` 仓库（若不存在）→ push → 开启 Pages。
 
-站点地址：`https://SummerColdWind.github.io/`（英文 `/en/`）
+站点地址：`https://SummerColdWind.github.io/`（中文 `/zh/`）
 
 ### 手动步骤
 

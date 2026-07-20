@@ -80,4 +80,4 @@ if ($LASTEXITCODE -ne 0) {
 Write-Host ""
 Write-Host "Done. Site URL (may take 1-3 min):"
 Write-Host "  https://$User.github.io/"
-Write-Host "  https://$User.github.io/en/"
+Write-Host "  https://$User.github.io/zh/"

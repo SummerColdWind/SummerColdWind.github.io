@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate index.html (zh) and en/index.html from data/{locale}/*.json."""
+"""Generate index.html (en) and zh/index.html from data/{locale}/*.json."""
 
 from __future__ import annotations
 
@@ -15,12 +15,12 @@ PUBLICATIONS = DATA / "publications.json"
 TEMPLATE = ROOT / "templates" / "base.html"
 
 LOCALES = {
-    "zh": {
+    "en": {
         "output": ROOT / "index.html",
         "asset_prefix": "",
     },
-    "en": {
-        "output": ROOT / "en" / "index.html",
+    "zh": {
+        "output": ROOT / "zh" / "index.html",
         "asset_prefix": "../",
     },
 }
@@ -32,9 +32,9 @@ UI_DEFAULTS = {
     "lang_switch_aria": "Language switcher",
     "lang_current": "EN",
     "lang_other": "中文",
-    "lang_other_href": "../",
+    "lang_other_href": "zh/",
     "alternate_hreflang": "zh-CN",
-    "alternate_href": "../",
+    "alternate_href": "zh/",
     "download_cv": "Download CV",
     "send_email": "Email Me",
     "social_aria": "Social links",
@@ -724,9 +724,17 @@ def build_locale(locale: str, config: dict) -> None:
     print(f"Built {out_path.relative_to(ROOT)}")
 
 
+def cleanup_stale_outputs() -> None:
+    stale = ROOT / "en" / "index.html"
+    if stale.is_file():
+        stale.unlink()
+        print(f"Removed stale {stale.relative_to(ROOT)}")
+
+
 def build() -> None:
     for locale, config in LOCALES.items():
         build_locale(locale, config)
+    cleanup_stale_outputs()
 
 
 if __name__ == "__main__":
